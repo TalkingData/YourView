@@ -59,6 +59,7 @@ Search and Live edit
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
+
 GCDWebServer [license](https://github.com/swisspol/GCDWebServer/blob/master/LICENSE ) 
 
 Copyright (c) 2015-present, TalkingData

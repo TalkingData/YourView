@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>App Analytics</string>
+		<key>functions</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Base</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>基础统计</string>
+				<key>subtitle</key>
+				<string>提供应用使用、新增设备、活跃设备及设备分布等基础统计。</string>
+				<key>detail</key>
+				<string>集成SDK并进行基础配置后则可以统计应用的基本情况，App Analytics提供以下基础统计：
+1、应用启动时间、启动次数、每次使用持续时长
+2、新增设备、活跃设备、设备留存、流失及回流
+3、设备的机型分布
+4、设备的地理位置分布
+5、设备的运营商及网络分布
+6、iOS设备是否越狱、是否安装破解应用
+7、应用异常分析（默认为关闭状态，集成SDK时请按需开启）
+
+其中以下几点需要注意：
+1、保证App ID正常。我们是通过App ID来区分不同应用的数据，所以请务必保证App ID正常。
+2、保证渠道ID正常。在分包推广时如果需要区分不同渠道带来的用户规模及运营效果，需要给每个渠道或活动一个独立的渠道ID。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Custom</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>自定义事件</string>
+				<key>subtitle</key>
+				<string>用于帮助开发者追踪所有希望追踪的用户与App的交互行为。特指代码事件。</string>
+				<key>detail</key>
+				<string>　　自定义事件用于帮助开发者追踪所有希望追踪的用户与App的交互行为。目前TalkingData提供了代码事件和灵动事件两种方式。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Standard</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>标准事件</string>
+				<key>subtitle</key>
+				<string>提供标准化事件接口，便于开发者快速集成关键操作追踪，并基于标准化事件，提供针对性的分析服务。</string>
+				<key>detail</key>
+				<string>　　提供标准化事件接口，便于开发者快速集成关键操作追踪，并基于标准化事件，提供针对性的分析服务。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Page</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>页面统计</string>
+				<key>subtitle</key>
+				<string>用于帮助开发者追踪用户对页面的访问情况，如页面访问量、停留时长、页面间跳转。</string>
+				<key>detail</key>
+				<string>页面统计用于帮助开发者追踪用户对页面的访问情况：
+1、在不同页面的访问量
+2、每个页面的停留时长
+3、页面间跳转情况
+对每个需要追踪的页面都需要开发者分别进行方法调用。
+
+此Demo默认统计此页面及其子页面的访问。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Codeless</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>灵动分析</string>
+				<key>subtitle</key>
+				<string>不需要书预先进行代码埋点，在报表平台中通过动态添加，SDK会自动部署追踪码。</string>
+				<key>detail</key>
+				<string>　　灵动事件支持App界面中的按钮、输入框、单选和多选控件、图片按钮的点击动作自动计数。您不需要书写额外的触发代码，在报表平台中通过动态添加，SDK会自动部署追踪码。
+　　需要在报表页面对需要进行追踪的事件进行配置。
+　　查看功能演示：https://www.talkingdata.com/activity/smartcode/index.html</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>AntiCheating</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>用户质量评估</string>
+				<key>subtitle</key>
+				<string>依靠大数据技术手段，引入“姿态识别”等智能技术，让劣质渠道无处可藏。</string>
+				<key>detail</key>
+				<string>　　TalkingData依靠大数据技术手段，引入“姿态识别”等智能技术，让劣质渠道无处可藏。其中“姿态识别”为可选判断手段，定制SDK时不勾选此功能，则后续计算中无法依据“姿态识别”进行更精准识别。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Push</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>推送营销</string>
+				<key>subtitle</key>
+				<string>帮助您与用户建立紧密的营销通道，即使那些已不再活跃的用户也可以有效触达。</string>
+				<key>detail</key>
+				<string>　　推送营销功能帮助您与用户建立紧密的营销通道，即使那些已不再活跃的用户也可以有效触达。
+　　在版本更新，活动上线，商城促销等场景下开展推送营销，能有效拉动活跃提高留存率。我们帮助将推送做得更精准，结合行业数据挖掘给出您意想不到的潜力付费、高危流失等预测人群，减少不必要的骚扰和提高转化效果。
+
+　　需要在报表页面进行通道配置并配置下发内容。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Game Analytics</string>
+		<key>functions</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Base</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>基础统计</string>
+				<key>subtitle</key>
+				<string>提供游戏使用、新增设备、活跃设备及设备分布等基础统计。</string>
+				<key>detail</key>
+				<string>　　TalkingData为您提供行之有效的游戏分析系统，我们的游戏分析系统及分析方法广为游戏人团队所接受，功能设计成为行业标杆；
+　　如今，新增的精准营销组件助您跑完游戏运营最后一公里。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Custom</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>自定义事件</string>
+				<key>subtitle</key>
+				<string>用于帮助开发者追踪所有希望追踪的用户与游戏的交互行为。</string>
+				<key>detail</key>
+				<string>　　自定义事件用于帮助开发者追踪所有希望追踪的用户与游戏的交互行为。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Push</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>推送营销</string>
+				<key>subtitle</key>
+				<string>帮助您与用户建立紧密的营销通道，即使那些已不再活跃的用户也可以有效触达。</string>
+				<key>detail</key>
+				<string>　　推送营销功能帮助您与用户建立紧密的营销通道，即使那些已不再活跃的用户也可以有效触达。
+　　在版本更新，活动上线，商城促销等场景下开展推送营销，能有效拉动活跃提高留存率。我们帮助将推送做得更精准，结合行业数据挖掘给出您意想不到的潜力付费、高危流失等预测人群，减少不必要的骚扰和提高转化效果。
+
+　　需要在报表页面进行通道配置并配置下发内容。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ad Tracking</string>
+		<key>functions</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Base</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>基础统计</string>
+				<key>subtitle</key>
+				<string>常规广告效果监测分析，包括点击、激活、注册、留存等行为数据。</string>
+				<key>detail</key>
+				<string>　　TalkingData为您提供了有效的移动效果广告监测系统，量化移动广告推广效果，聪明的使用每一分钱。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Custom</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>自定义事件</string>
+				<key>subtitle</key>
+				<string>统计自定义事件的触发次数，时间等信息。</string>
+				<key>detail</key>
+				<string>　　Ad Tracking提供10个自定义事件点，支持个性化埋点监测。</string>
+			</dict>
+		</array>
+	</dict>
+    <dict>
+        <key>name</key>
+        <string>eAuth</string>
+        <key>functions</key>
+        <array>
+            <dict>
+                <key>name</key>
+                <string>eAuth</string>
+                <key>selected</key>
+                <true/>
+                <key>title</key>
+                <string>易认证</string>
+                <key>subtitle</key>
+                <string>易认证为您提供稳定的认证服务。支持短信、语音等多种方式。</string>
+                <key>detail</key>
+                <string>　　易认证为您提供高效、低成本、安全、智能的认证服务。</string>
+            </dict>
+        </array>
+    </dict>
+</array>
+</plist>

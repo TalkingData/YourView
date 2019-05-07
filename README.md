@@ -53,8 +53,12 @@ Search and Live edit
 
 [swisspol/GCDWebServer](https://github.com/swisspol/GCDWebServer )  This project provide a good http service in iOS App.
 
+## Links
+- [TalkingData](https://github.com/TalkingData)
+
 ## License
 
-YourView is released under the MIT license. 
-
+[MIT](http://opensource.org/licenses/MIT)
 GCDWebServer [license](https://github.com/swisspol/GCDWebServer/blob/master/LICENSE ) 
+
+Copyright (c) 2015-present, TalkingData

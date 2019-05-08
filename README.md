@@ -1,4 +1,4 @@
-YourView is a desktop App in MacOS. You may use it to view iOS App's view hierarchy. I think it could be a "base project" in app visualization. Depend on it,you may do your own add-on functions's development such as visual tracking like mixpanel, iOS reverse tool just like reveal,frida,even though,you can develep android studio plugin for view debugging. Now I treat it as a iOS reverse tool.Now it is a version of 0.1,I will maintain continuedly.
+**YourView** is a desktop App in MacOS. You can use it to view iOS App's view hierarchy. I think it could be a `basic project` in app view visualization. Depend on it, you may do your add-on functions's development such as visual tracking like mixpanel, iOS reverse tool just like reveal, frida, even though, you can develop android studio plugin for view debugging. Now I treat it as a iOS reverse tool. Now it is a version of 0.1, I will maintain continuedly.
 
 ## Quick Start
 

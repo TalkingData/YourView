@@ -35,7 +35,7 @@ Search and Live edit
 - The iOS UIView serilization operation will block the main thread.It maybe faster in Simulator than iOS devices.
 
 ## TODO
-- Auto network scan using bonjour service.
+- Auto network scan using bonjour service like reveal.
 - Make the right panel powerful. Now it is hard coded.Make it dynamic,more functions in Object explore just like flex.
 - Add the the layout,gesture,viewController infomation to the left tree,just like reveal or Xcode.
 - User experience improvment.

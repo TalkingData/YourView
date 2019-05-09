@@ -34,7 +34,8 @@ Search and Live edit
 - You don't need write any code. Once the framework is loaded,it will start a server automatily
 - The iOS UIView serilization operation will block the main thread.It maybe faster in Simulator than iOS devices.
 
-## Next works
+## TODO
+- Auto network scan using bonjour service.
 - Make the right panel powerful. Now it is hard coded.Make it dynamic,more functions in Object explore just like flex.
 - Add the the layout,gesture,viewController infomation to the left tree,just like reveal or Xcode.
 - User experience improvment.

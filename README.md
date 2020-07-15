@@ -63,4 +63,6 @@ Search and Live edit
 
 GCDWebServer [license](https://github.com/swisspol/GCDWebServer/blob/master/LICENSE ) 
 
+[著作权声明_YourView_20200624.txt](./著作权声明_YourView_20200624.txt)
+
 Copyright (c) 2015-present, TalkingData
